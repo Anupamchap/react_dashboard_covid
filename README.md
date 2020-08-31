@@ -29,6 +29,7 @@ Covid tracker Dashboard build using react
 
 
 <h1>Folder Structure of src</h1>
+<p>
 src
     |   App.css
     |   App.js
@@ -119,3 +120,4 @@ src
                     index.js
                     Notifications.js
                     Password.js
+    </p>
