@@ -28,7 +28,7 @@ Covid tracker Dashboard build using react
 <p>localhost:3000/</p>
 
 
-<h4>To import Test Data to firebase</h4>
+<h1>To import Test Data to firebase</h1>
 <p> You can get the covid related data freely from 'https://api.covid19india.org/data.json'. For this demo project we are fetching data from firebase. To do so we need to inser the json data in firebase, you can use the below command for same.</p>
 <p>Run 'node ./src/importdata_scripts/TimeSeriesDat.js'
 
