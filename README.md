@@ -29,96 +29,94 @@ Covid tracker Dashboard build using react
 
 
 <h1>Folder Structure of src</h1>
-<p style="white-space: nowrap">
-src
-    |   App.css
-    |   App.js
-    |   firebase.js
-    |   index.css
-    |   index.js
-    |   logo.svg
-    |   routes.js
-    |   sagas.js
-    |   serviceWorker.js
-    |   setupTests.js
-    |   store.js
-    |   
-    +---components
-    |       GlobalStyles.js
-    |       Logo.js
-    |       Page.js
-    |       
-    +---constants
-    |       actionTypes.js
-    |       
-    +---importdata_scripts
-    |       TimeSeriesDat.js
-    |       
-    +---layouts
-    |   +---DashboardLayout
-    |   |   |   index.js
-    |   |   |   TopBar.js
-    |   |   |   
-    |   |   \---NavBar
-    |   |           index.js
-    |   |           NavItem.js
-    |   |           
-    |   \---MainLayout
-    |           index.js
-    |           TopBar.js
-    |           
-    +---reducers
-    |       login.js
-    |       rootReducer.js
-    |       signup.js
-    |       timeSeriesData.js
-    |       userData.js
-    |       
-    +---test
-    |   +---integration
-    |   |       loginflow.test.js
-    |   |       signupflow.test.js
-    |   |       
-    |   \---unit
-    |       \---reducers
-    |               login.test.js
-    |               signup.test.js
-    |               timeSeriesData.test.js
-    |               userData.test.js
-    |               
-    +---theme
-    |       index.js
-    |       shadows.js
-    |       typography.js
-    |       
-    \---views
-        +---account
-        |   \---AccountView
-        |           index.js
-        |           Profile.js
-        |           ProfileDetails.js
-        |           
-        +---auth
-        |       LoginView.js
-        |       RegisterView.js
-        |       
-        +---errors
-        |       NotFoundView.js
-        |       
-        +---reports
-        |   \---DashboardView
-        |           CompletePicture.js
-        |           index.js
-        |           TotalActive.js
-        |           TotalConfirmed.js
-        |           TotalDeceased.js
-        |           TotalRecovered.js
-        |           Trends.js
-        |           
-        \---settings
-            \---SettingsView
-                    index.js
-                    Notifications.js
-                    Password.js
-    </p>
 
+<p>src                                        </p>
+<p>    |   App.css                            </p>
+<p>    |   App.js                             </p>
+<p>    |   firebase.js                        </p>
+<p>    |   index.css                          </p>
+<p>    |   index.js                           </p>
+<p>    |   logo.svg                           </p>
+<p>    |   routes.js                          </p>
+<p>    |   sagas.js                           </p>
+<p>    |   serviceWorker.js                   </p>
+<p>    |   setupTests.js                      </p>
+<p>    |   store.js                           </p>
+<p>    |                                      </p>
+<p>    +---components                         </p>
+<p>    |       GlobalStyles.js                </p>
+<p>    |       Logo.js                        </p>
+<p>    |       Page.js                        </p>
+<p>    |                                      </p>
+<p>    +---constants                          </p>
+<p>    |       actionTypes.js                 </p>
+<p>    |                                      </p>
+<p>    +---importdata_scripts                 </p>
+<p>    |       TimeSeriesDat.js               </p>
+<p>    |                                      </p>
+<p>    +---layouts                            </p>
+<p>    |   +---DashboardLayout                </p>
+<p>    |   |   |   index.js                   </p>
+<p>    |   |   |   TopBar.js                  </p>
+<p>    |   |   |                              </p>
+<p>    |   |   \---NavBar                     </p>
+<p>    |   |           index.js               </p>
+<p>    |   |           NavItem.js             </p>
+<p>    |   |                                  </p>
+<p>    |   \---MainLayout                     </p>
+<p>    |           index.js                   </p>
+<p>    |           TopBar.js                  </p>
+<p>    |                                      </p>
+<p>    +---reducers                           </p>
+<p>    |       login.js                       </p>
+<p>    |       rootReducer.js                 </p>
+<p>    |       signup.js                      </p>
+<p>    |       timeSeriesData.js              </p>
+<p>    |       userData.js                    </p>
+<p>    |                                      </p>
+<p>    +---test                               </p>
+<p>    |   +---integration                    </p>
+<p>    |   |       loginflow.test.js          </p>
+<p>    |   |       signupflow.test.js         </p>
+<p>    |   |                                  </p>
+<p>    |   \---unit                           </p>
+<p>    |       \---reducers                   </p>
+<p>    |               login.test.js          </p>
+<p>    |               signup.test.js         </p>
+<p>    |               timeSeriesData.test.js </p>
+<p>    |               userData.test.js       </p>
+<p>    |                                      </p>
+<p>    +---theme                              </p>
+<p>    |       index.js                       </p>
+<p>    |       shadows.js                     </p>
+<p>    |       typography.js                  </p>
+<p>    |                                      </p>
+<p>    \---views                              </p>
+<p>        +---account                        </p>
+<p>        |   \---AccountView                </p>
+<p>        |           index.js               </p>
+<p>        |           Profile.js             </p>
+<p>        |           ProfileDetails.js      </p>
+<p>        |                                  </p>
+<p>        +---auth                           </p>
+<p>        |       LoginView.js               </p>
+<p>        |       RegisterView.js            </p>
+<p>        |                                  </p>
+<p>        +---errors                         </p>
+<p>        |       NotFoundView.js            </p>
+<p>        |                                  </p>
+<p>        +---reports                        </p>
+<p>        |   \---DashboardView              </p>
+<p>        |           CompletePicture.js     </p>
+<p>        |           index.js               </p>
+<p>        |           TotalActive.js         </p>
+<p>        |           TotalConfirmed.js      </p>
+<p>        |           TotalDeceased.js       </p>
+<p>        |           TotalRecovered.js      </p>
+<p>        |           Trends.js              </p>
+<p>        |                                  </p>
+<p>        \---settings                       </p>
+<p>            \---SettingsView               </p>
+<p>                    index.js               </p>
+<p>                    Notifications.js       </p>
+<p>                    Password.js            </p>
