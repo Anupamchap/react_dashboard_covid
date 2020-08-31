@@ -7,7 +7,8 @@ Covid tracker Dashboard build using react
 <img src="Capture2.PNG" width="80%">
 
 <img src="/public/Blank Diagram.png" width="80%">
-
+<h1>Access application using below link</h1>
+https://enigmatic-fortress-72802.herokuapp.com/
 
 <h1>Installation and Setup Instructions</h1>
 
