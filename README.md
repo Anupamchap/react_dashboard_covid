@@ -28,3 +28,94 @@ Covid tracker Dashboard build using react
 <p>localhost:3000/</p>
 
 
+<h1>Folder Structure of src</h1>
+src
+    |   App.css
+    |   App.js
+    |   firebase.js
+    |   index.css
+    |   index.js
+    |   logo.svg
+    |   routes.js
+    |   sagas.js
+    |   serviceWorker.js
+    |   setupTests.js
+    |   store.js
+    |   
+    +---components
+    |       GlobalStyles.js
+    |       Logo.js
+    |       Page.js
+    |       
+    +---constants
+    |       actionTypes.js
+    |       
+    +---importdata_scripts
+    |       TimeSeriesDat.js
+    |       
+    +---layouts
+    |   +---DashboardLayout
+    |   |   |   index.js
+    |   |   |   TopBar.js
+    |   |   |   
+    |   |   \---NavBar
+    |   |           index.js
+    |   |           NavItem.js
+    |   |           
+    |   \---MainLayout
+    |           index.js
+    |           TopBar.js
+    |           
+    +---reducers
+    |       login.js
+    |       rootReducer.js
+    |       signup.js
+    |       timeSeriesData.js
+    |       userData.js
+    |       
+    +---test
+    |   +---integration
+    |   |       loginflow.test.js
+    |   |       signupflow.test.js
+    |   |       
+    |   \---unit
+    |       \---reducers
+    |               login.test.js
+    |               signup.test.js
+    |               timeSeriesData.test.js
+    |               userData.test.js
+    |               
+    +---theme
+    |       index.js
+    |       shadows.js
+    |       typography.js
+    |       
+    \---views
+        +---account
+        |   \---AccountView
+        |           index.js
+        |           Profile.js
+        |           ProfileDetails.js
+        |           
+        +---auth
+        |       LoginView.js
+        |       RegisterView.js
+        |       
+        +---errors
+        |       NotFoundView.js
+        |       
+        +---reports
+        |   \---DashboardView
+        |           CompletePicture.js
+        |           index.js
+        |           TotalActive.js
+        |           TotalConfirmed.js
+        |           TotalDeceased.js
+        |           TotalRecovered.js
+        |           Trends.js
+        |           
+        \---settings
+            \---SettingsView
+                    index.js
+                    Notifications.js
+                    Password.js
