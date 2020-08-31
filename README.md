@@ -2,7 +2,7 @@
 Covid tracker Dashboard build using react
 
 
-<h1>Screen shots React Dashboard</h1>
+<h1>Screen shots REACT COVID TRACKER Dashboard</h1>
 <img src="Capture1.PNG" width="80%">
 <img src="Capture2.PNG" width="80%">
 
