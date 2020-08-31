@@ -8,7 +8,23 @@ Covid tracker Dashboard build using react
 
 <img src="/public/Blank Diagram.png" width="80%">
 
-<h1>Usage</h1>
-<h4>To install all the packages run 'npm i'</h4>
+
+<h1>Installation and Setup Instructions</h1>
+
+<p>Installation:</p>
+
+<p>npm install</p>
+
+<p>To Run Test Suite:</p>
+
+<p>npm test</p>
+
+<p>To Start Server:</p>
+
+<p>npm start</p>
+
+<p>To Visit App:</p>
+
+<p>localhost:3000/</p>
 
 
