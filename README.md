@@ -11,19 +11,19 @@ Covid tracker Dashboard build using react
 
 <h1>Installation and Setup Instructions</h1>
 
-<p>Installation:</p>
+<h4>Installation:</h4>
 
 <p>npm install</p>
 
-<p>To Run Test Suite:</p>
+<h4>To Run Test Suite:</h4>
 
 <p>npm test</p>
 
-<p>To Start Server:</p>
+<h4>To Start Server:</h4>
 
 <p>npm start</p>
 
-<p>To Visit App:</p>
+<h4>To Visit App:</h4>
 
 <p>localhost:3000/</p>
 
