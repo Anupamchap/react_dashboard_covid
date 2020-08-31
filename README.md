@@ -29,7 +29,7 @@ Covid tracker Dashboard build using react
 
 
 <h1>Folder Structure of src</h1>
-<p white-space: nowrap>
+<p style="white-space: nowrap">
 src
     |   App.css
     |   App.js
