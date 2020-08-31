@@ -7,7 +7,7 @@ Covid tracker Dashboard build using react
 <img src="Capture2.PNG" width="80%">
 
 <h1>Application Architecture:</h1>
-<img src="/public/blank diagram.png" width="80%">
+<img src="/public/Blank Diagram.png" width="80%">
 
 <h1>Usage</h1>
 <h4>To install all the packages run 'npm i'</h4>
