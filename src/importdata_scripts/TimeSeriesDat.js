@@ -5,9 +5,9 @@ require('firebase/firestore');
 
 // Initialize Cloud Firestore through Firebase
 firebase.initializeApp({
-  apiKey: 'AIzaSyCbEtwwMgAaiSFfCVPJLRIBvoVMxRhfUxw',
-  authDomain: 'covidtracker-300b6.firebaseapp.com',
-  projectId: 'covidtracker-300b6'
+  apiKey: 'XXXXXXXXXXXXXXXXXXXXXXXXX',
+  authDomain: 'XXXXXXXXXXXXXXXXXXX',
+  projectId: 'XXXXXXXXXXXXXXXX'
 });
 
 const db = firebase.firestore();
