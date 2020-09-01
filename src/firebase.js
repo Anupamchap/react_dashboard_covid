@@ -3,14 +3,14 @@ import 'firebase/auth';
 import 'firebase/firestore';
 
 const firebaseConfig = {
-  apiKey: 'AIzaSyCbEtwwMgAaiSFfCVPJLRIBvoVMxRhfUxw',
-  authDomain: 'covidtracker-300b6.firebaseapp.com',
-  databaseURL: 'https://covidtracker-300b6.firebaseio.com',
-  projectId: 'covidtracker-300b6',
-  storageBucket: 'covidtracker-300b6.appspot.com',
-  messagingSenderId: '1076051570421',
-  appId: '1:1076051570421:web:9ba10efe661cb8ad335fbc',
-  measurementId: 'G-3VVWZFQ5W3'
+  apiKey: 'XXXXXXXXXXXXXXXXXXXXXXXXX',
+  authDomain: 'XXXXXXXXXXXXXXXXXXXXXX',
+  databaseURL: 'XXXXXXXXXXXXXXXXXXXXXX',
+  projectId: 'XXXXXXXXXXXXXXXXXXXXXX',
+  storageBucket: 'XXXXXXXXXXXXXXXXXXXXXXX',
+  messagingSenderId: 'XXXXXXXXXXXXXXXXX',
+  appId: 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
+  measurementId: 'XXXXXXXXXXXX'
 };
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
