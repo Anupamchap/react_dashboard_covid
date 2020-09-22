@@ -10,6 +10,7 @@ https://enigmatic-fortress-72802.herokuapp.com/
 
 <img src="/public/Blank Diagram.png" width="80%">
 
+
 <h1>Installation and Setup Instructions</h1>
 
 <h4>Installation:</h4>
